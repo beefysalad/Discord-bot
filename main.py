@@ -12,7 +12,7 @@ async def on_message(message):
     if message.author == client.user:
         return
     if message.content.startswith('$help'):
-        await message.channel.send('*Commands are*:\n ** >>> $info\n$topi\n$bakat\n$greet\n$ping**')
+        await message.channel.send('*Commands are*:\n ** >>> $info\n$topi\n$bakat\n$greet\n$ping\n$src**')
     if message.content.startswith('$topi'):
         await message.channel.send('> Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat ~ Topi Bakat')
     if message.content.startswith('$bakat'):
@@ -24,21 +24,14 @@ async def on_message(message):
         await message.channel.send(f'> Hello {message.author.name}')
     if message.content.startswith('$ping'):
         await message.channel.send(f'> My server latency: **{round(client.latency * 1000)}ms**')
-    # if msg.startswith('ggs'):
-    #     await message.channel.send(f'> Good Game **{message.author.name}!**  Toms again')
     if msg.startswith('gg'):
         await message.channel.send(f'> Good Game **{message.author.name}!**  Toms again')
+    if msg.startswith('$src'):
+        await message.channel.send('Hey, check out my source code written on python here on my github page: **https://github.com/beefysalad/Discordbot/blob/main/main.py**')
+    if msg.startswith('jett'):
+        await message.channel.send('Did you just say jett? Jett Lao is the best jett to have ever lived in Southeast asia with a KD of 0.76 and win percentage of 51% on Competitive Queue! Checkout his valorant stats here on ** https://tracker.gg/valorant/profile/riot/Ashimoyu%238544/overview **')
 
-# @client.command()
-# async def joinVc(ctx):
-#     channel = ctx.author.voice.channel
-#     await channel.connect()
-# @client.event
-# async def getName(message):
-#     if message.content.startswith('$get'):
-#         await message.channel.send("Hello  {ctx.author.name}")
-
-client.run('TOKEN_FOR_BOT')
+client.run('ODYxMTQyNzE2NTcwNTMzODk5.YOFfpg.rHUsSBPWk3kBJnk9naqTok-FI3o')
 
 
 
