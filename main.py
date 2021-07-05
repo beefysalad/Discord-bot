@@ -29,9 +29,9 @@ async def on_message(message):
     if msg.startswith('$src'):
         await message.channel.send('Hey, check out my source code written on python here on my github page: **https://github.com/beefysalad/Discordbot/blob/main/main.py**')
     if msg.startswith('jett'):
-        await message.channel.send('Did you just say jett? Jett Lao is the best jett to have ever lived in Southeast asia with a KD of 0.76 and win percentage of 51% on Competitive Queue! Checkout his valorant stats here on ** https://tracker.gg/valorant/profile/riot/Ashimoyu%238544/overview **')
+        await message.channel.send('> Did somebody mentioned jett? DYK that Jett Lao is the best jett to have ever lived in Southeast asia with a KD of **0.76** and win percentage of **51%** across all maps on Competitive Queue! Checkout his valorant stats here on ** https://tracker.gg/valorant/profile/riot/Ashimoyu%238544/overview **')
 
-client.run('ODYxMTQyNzE2NTcwNTMzODk5.YOFfpg.rHUsSBPWk3kBJnk9naqTok-FI3o')
+client.run('TOPI_BOT_TOKEN')
 
 
 
