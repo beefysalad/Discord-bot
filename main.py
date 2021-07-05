@@ -38,7 +38,7 @@ async def on_message(message):
 #     if message.content.startswith('$get'):
 #         await message.channel.send("Hello  {ctx.author.name}")
 
-client.run('ODYxMTQyNzE2NTcwNTMzODk5.YOFfpg.rHUsSBPWk3kBJnk9naqTok-FI3o')
+client.run('TOKEN_FOR_BOT')
 
 
 
