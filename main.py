@@ -40,7 +40,7 @@ async def on_message(message):
         await message.channel.send('> Did somebody mentioned jett? DYK that Jett Lao is the best jett to have ever lived in Southeast asia with a KD of **0.76** and win percentage of **51%** across all maps on Competitive Queue! Checkout his valorant stats here on ** https://tracker.gg/valorant/profile/riot/Ashimoyu%238544/overview **')
     if msg.startswith('$pic'):
         await message.channel.send('Take a look at the best Jett in SEA')
-        await message.channel.send(file=discord.File(r'C:\Users\Patrick\Downloads\jettlao.png'))
+        await message.channel.send(file=discord.File(r'path\pic.png'))
 
 client.run('TOPI_BOT_TOKEN')
 
